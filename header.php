@@ -12,6 +12,8 @@
 		<!-- header area starts here -->
 
 		<header class="header-area">
+			<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
+
 			<div class="main-menu">
 				<ul>
 					<li><a href="#">Home</a></li>
